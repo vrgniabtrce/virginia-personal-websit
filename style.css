@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* GENERAL SETTINGS */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+background-color: #fff8f5;
+color: #59434a;
+line-height: 1.6;
+}
+/* AESTHETIC HEADER */
+header {
+    background: linear-gradient(135deg, #f8dce5, #fceef1);
+    padding: 55px 20px;
+    text-align: center;
+    border-radius: 0 0 35px 35px;
+    box-shadow: 0 5px 20px rgba(180, 120, 140, 0.12);
+}
+
+header h1 {
+    color: #a64d70;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #8d6473;
+    font-size: 17px;
+}
+/* AESTHETIC NAVIGATION */
+nav {
+    background-color: #f8e8ec;
+    padding: 18px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 15px 30px;
+    box-shadow: 0 4px 12px rgba(180, 120, 140, 0.12);
+}
+
+nav a {
+    color: #92596d;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 18px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d17d98;
+}
+/* MAIN CONTENT */
+main {
+max-width: 1000px;
+margin: 40px auto;
+padding: 30px;
+background-color: white;
+border-radius: 15px;
+}
+/* HEADINGS */
+h1, h2 {
+color: #b45f7c;
+margin-bottom: 15px;
+}
+/* BUTTON */
+button {
+background-color: #d98ba8;
+color: white;
+border: none;
+padding: 12px 25px;
+border-radius: 25px;
+cursor: pointer;
+}
+/* FOOTER */
+footer {
+background-color: #f8dce5;
+color: #704354;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: #f8dce5;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+nav a {
+    color: #704354;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #e27c9b;
+}
+
+/* HOME SECTION */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body > h1 {
+    text-align: center;
+}
+
+body > h2 {
+    text-align: center;
+}
+
+body > p {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+}
+/* ABOUT ME SECTION */
+#about {
+    background: linear-gradient(135deg, #fff0f4, #f8dce5);
+    max-width: 1000px;
+margin: 40px auto;
+    padding: 45px 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(180, 120, 140, 0.12);
+    transition: 0.3s ease;
+}
+
+#about:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(180, 120, 140, 0.18);
+}
+
+#about h2 {
+    color: #a64d70;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #704354;
+    font-size: 17px;
+    line-height: 1.8;
+}
+/* MY INTERESTS */
+#interests {
+    background: #fff0f4;
+    margin: 40px 30px;
+    padding: 45px 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(180, 120, 140, 0.12);
+}
+
+#interests h2 {
+    color: #a64d70;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.interest-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.interest-card {
+    background: #f8dce5;
+    padding: 25px 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(180, 120, 140, 0.10);
+    transition: 0.3s ease;
+}
+
+.interest-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(180, 120, 140, 0.18);
+}
+
+.interest-card h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.interest-card h4 {
+    color: #a64d70;
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.interest-card p {
+    color: #704354;
+    font-size: 14px;
+}
+
+/* MY HOMETOWN */
+#hometown {
+    background: #fff0f4;
+    margin: 40px 30px;
+    padding: 45px 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(180, 120, 140, 0.12);
+    transition: 0.3s ease;
+}
+
+#hometown h2 {
+    color: #a64d70;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.hometown-content {
+    background: #f8dce5;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.hometown-content:hover {
+    transform: translateY(-5px);
+}
+
+.hometown-icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hometown-content h3 {
+    color: #a64d70;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.hometown-content p {
+    color: #704354;
+    font-size: 16px;
+    line-height: 1.8;
+}
+/* MY PHOTO */
+#my-photo {
+    background: linear-gradient(135deg, #fff0f4, #f8dce5);
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 45px 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(180, 120, 140, 0.12);
+}
+
+#my-photo h2 {
+    color: #a64d70;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.photo-container img {
+    width: 220px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.photo-description {
+    flex: 1;
+    min-width: 250px;
+}
+
+.photo-description h3 {
+    color: #a64d70;
+    font-size: 23px;
+}
+
+.photo-description p {
+    color: #704354;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* MY HOMETOWN */
+#hometown {
+    background: linear-gradient(135deg, #fff0f4, #fff8e8);
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 45px 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(180, 120, 140, 0.12);
+}
+
+#hometown h2 {
+    color: #a64d70;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.hometown-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.hometown-content img {
+    width: 280px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.hometown-content div {
+    max-width: 450px;
+    text-align: left;
+}
+
+.hometown-content h3 {
+    color: #a64d70;
+}
+
+.hometown-content p {
+    line-height: 1.8;
+}
+
+.family-friends-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.family-friends-images div {
+    flex: 1;
+}
+
+.family-friends-images img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.family-friends-images p {
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.interest-card > img {
+    width: 55%;
+    height: 80x;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 10px auto;
+    display: block;
+}
