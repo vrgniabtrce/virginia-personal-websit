@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hometown | Virginia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Hometown</h1>
+        <p>A place close to my heart</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About You</a>
+        <a href="hometown.html">My Hometown</a>
+        <a href="interest.html">Interests & Hobbies</a>
+    </nav>
+
+    <section>
+        <h2>PO-AI, Sri Aman, Sarawak</h2>
+
+        <img src="images/PO-AI.jpg" alt="My Hometown PO-AI" width="400">
+
+        <p>
+            I come from PO-AI, a village located in
+            Sri Aman, Sarawak, Malaysia. It is a special
+            place that holds many beautiful memories
+            of my childhood, family and culture.
+            I am proud of my roots and where I come from.
+            No matter where life takes me, PO-AI will
+            always be my beloved hometown.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Virginia Beatrice</p>
+    </footer>
+
+</body>
+</html>

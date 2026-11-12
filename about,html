@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me | Virginia</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>About Me</h1>
+
+        <p>Get to know me better!</p>
+
+    </header>
+
+    <nav>
+
+    <a href="index.html">Home</a>
+
+    <a href="about.html">About You</a>
+
+    <a href="hometown.html">My Hometown</a>
+
+    <a href="interest.html">Interests & Hobbies</a>
+
+</nav>
+
+    <section>
+
+        <h2>Hello, I'm Virginia!</h2>
+
+        <img src="images/photo.jpeg" alt="My Photo" width="250">
+
+        <p>
+
+            My name is Virginia Beatrice Anak Embrus.
+
+            I am from Sarawak, Malaysia.
+
+            I am a Business Computing student at
+
+            Universiti Malaysia Sabah.
+
+            I enjoy learning new things, exploring
+
+            technology and spending time with my family
+
+            and friends.
+
+        </p>
+
+    </section>
+
+    <footer>
+
+        <p>© 2026 Virginia Beatrice</p>
+
+    </footer>
+
+</body>
+
+</html>
